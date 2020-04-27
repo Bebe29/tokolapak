@@ -1,0 +1,71 @@
+:root {
+  --accent-default: #3c64b1;
+  --accent-dark: #1e4693;
+  --accent-light: #5a82cf;
+}
+
+.custom-btn {
+  padding: 12px 18px;
+  /* align-items: center;
+  justify-content: center; */
+  vertical-align: middle;
+  text-align: center;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  width: fit-content;
+  transition: all ease-in-out 100ms;
+}
+
+.custom-btn:hover {
+  cursor: pointer;
+}
+
+.custom-btn-outline {
+  border: 1px solid var(--accent-default);
+  color: var(--accent-default);
+}
+
+.custom-btn-outline:hover {
+  border: 1px solid var(--accent-light);
+  color: var(--accent-light);
+}
+
+.custom-btn-outline:active {
+  border: 1px solid var(--accent-dark);
+  color: var(--accent-dark);
+}
+
+.custom-btn-contained {
+  background-color: var(--accent-default);
+  border: 1px solid var(--accent-default);
+  color: white;
+}
+
+.custom-btn-contained:hover {
+  background-color: var(--accent-light);
+  border: 1px solid var(--accent-light);
+  color: white;
+}
+
+.custom-btn-contained:active {
+  background-color: var(--accent-dark);
+  border: 1px solid var(--accent-dark);
+  color: white;
+}
+
+.custom-btn-textual {
+  color: var(--accent-default);
+  padding: 0 !important;
+}
+
+.custom-btn-textual:hover {
+  color: var(--accent-light);
+}
+
+.custom-btn-textual:active {
+  color: var(--accent-dark);
+}
